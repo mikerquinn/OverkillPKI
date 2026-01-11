@@ -87,3 +87,6 @@ Once we've killed a couple of weekends building out all that PKI infrastructure,
 ## Conclusion
 
 We've defined the objectives for this project, and there are a lot of them.  In our next article, we will dive right into creating the root certificate authority.  
+
+
+Copyright 2026 Michael Quinn
