@@ -178,3 +178,5 @@ This generates a CRL which will be good for the duration specified in the config
 ## Conclusion
 
 At this point, you have created a lot of configuration to produce the private key and root certificate.  From here, you could just use this CA to start issuing certificates to your users and devices, but we aren't going to do things that way.  As discussed in the first article, we will build another layer under this certificate, the signing CA.  That will use a hardware protected key and will be the online issuer that will be used to create our actual certificates.  While we are at it we'll learn all about PKCS11 and Smallstep.  See you on the next one.
+
+Copyright 2026 Michael Quinn
