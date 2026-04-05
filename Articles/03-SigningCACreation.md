@@ -68,7 +68,7 @@ You'll want the name of your signing CA handy for the next steps.  For the rest 
 export SIGNINGCA=FreyjaPKISigningCA
 ```
 ```
-ykman piv keys generate 9a 9a.pub
+ykman piv keys generate 9a 9a.pub --pin-policy always
 ```
 This tells the YubiKey to create a new key in slot 9a and save the resultant public key in a file, `9a.pub`.  The next step is a little convoluted.  We tell the YubiKey to create a self-signed certificate with the same name we are going to use for our signing certificate.  We won't actually use this certificate for anything but many of the subsequent commands will work better with a certificate in the slot than they will with just the public key.
 ```
