@@ -1,0 +1,23 @@
+{
+   "root": "/etc/step/certs/root_ca.pem",
+   "federatedRoots": null,
+   "crt": "/etc/step/certs/intermediate_ca.pem",
+   "key": "YubiKey:slot-id=9a",
+   "kms": {
+      "type": "YubiKey",
+      "pin": "123456"
+   },
+   "address": ":443",
+   "insecureAddress": "",
+   "dnsNames": [
+      "yubitest.freyjapki.com"
+   ],
+   "logger": {
+      "format": "text"
+   },
+   "db": {
+      "type": "badgerv2",
+      "dataSource": "/etc/step/db",
+      "badgerFileLoadingMode": ""
+   }
+}

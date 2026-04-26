@@ -1,0 +1,6 @@
+{
+   "ca-url": "https://yubitest.freyjapki.com",
+   "ca-config": "/etc/step/config/ca.json",
+   "fingerprint": "59138e613920a1a24ad9826f3a4e9b29642962a1b86ab1f996c154ffe35eeac7",
+   "root": "/etc/step/certs/root_ca.pem"
+}
