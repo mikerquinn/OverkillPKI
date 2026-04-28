@@ -252,3 +252,4 @@ When you query the CRL endpoint again you should see the serial number of your t
 
 Congratulations.  You have an online signing and renewing CA that can issue and revoke certificates for devices and users within your network.  We're not done yet, since there are still a number of extra pieces and automations to add to make the system complete.  In the next article we'll build out our authority information access and CRL server.  While we are at it, we'll learn how to deploy and automatically renew certificates to an Apache webserver. 
 
+Copyright 2026 Michael Quinn
