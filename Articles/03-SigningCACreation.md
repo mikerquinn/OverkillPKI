@@ -288,3 +288,5 @@ openssl x509 -in $SIGNINGCA.pem -outform DER | openssl dgst -sha256
 This converts your text-based PEM file into a binary DER file and hashes it using sha256.  This hash should match the fingerprint produced by `ykman` above.  
 
 Congratulations, you have a two-layer PKI system suitable for signing leaf certificates.  From here you could set-up another CA directory structure and go about signing certificates for your clients and servers throughout your network using similar config files and `openssl ca` commands to the above.  However, that will be quite tedious.  Instead we will use another open-source system, Smallstep, which will be the subject of the next article.
+
+Copyright 2026 Michael Quinn
